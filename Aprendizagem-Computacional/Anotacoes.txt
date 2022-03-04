@@ -1,0 +1,48 @@
+Objetivos  Gerais 
+->Entender o que significa pensar computacionalmente aplicada a qualquer área de conhecimento 
+
+->Resolver qualquer problema de maneira mais objetiva e eficiente 
+
+
+1. Aula 1
+
+Pensamento Computacional é muito atribuido à ciências da computação mas não é exclusivo dessa área podendo ser utilizado em qualquer área distinta. Esse conceito é um processo de pensamento estruturado que envolve a determinação e expreção de um problema  para que haja uma sucessão de intruções para chegar a uma solução sendo executado por um computador e algoritmo.
+	-> Formulação e resolução de Problemas de maneira sistemática e eficiente a fim de encontrar a melhor solução possível. Deve ser aplicado para que seres humanos e máquinas compreendam. 
+
+Esse pensamento é baseado em 4 pilares sendo eles: 
+	a) Decomposição: consiste em dividir um problema complexo em subproblemas a fim de facilitar sua resolução;
+	ex: dividir um quebra cabeças de 5000 peças em grupos a fim de facilitar sua montagem.
+	    busca binária em um vetor gigante procurando um número -> dividir ele em dois e buscar nomavemnto o meio e assim sucessivamente ate encontra-lo
+
+	b) Reconhecimento de Padrões: identificar padrões ou tendências dentro de um determinado problema ou em problemas distintos, esse tipo de situação pode ocorrer por simularidade ou diferença entre os problemas; 
+	ex: padrão comportamental de indivíduos na bolsa de valores (sardinhas e tubarões)
+
+	c) Abstração: extrapolar o conceito do problema para uma forma generalista, ou seja, pegar uma particularidade ou um determinado cenário específico a fim de deixa-lo generalista;
+	ex: área da circunferência sendo representada pela formula C = 2 . pi . R em vez de utilizar uma área especificada
+
+	d) Design de Algoritmos: determina a execução eficiente do problema autmatizando-o e definindo seu passo a passo;
+	ex: input --> operador --> output
+
+Além desse pilares é necessário que o Dev ou o usuário dessa técnica tenha em mente que ele deve aperfeiçoar e testar a solução a fim de otimizar recursos. Quanto mais eficiente o algoritmo mais rápido você implementa a solução.
+Esse ciclo é chamado de Overview e possui as etapas de análise, teste e refinamento.
+O interessante é que o pensamento computacional permite que voce realize o melhor dos dois mundos. 
+
+Além dos 4 pilares principais é necessário que o Dev possua raciocínio Lógico (resolver problemas com eficiência), decomposição, padrões,  avstração, algoritmos e refinamento
+
+As principais competências adquiridas e desenvolvidas são o pensamento sistemático, colaboração dentro da equpe, criatividade e design e torna a pessoa um facilitador. 
+
+Parte Dois
+
+Raciocíno Lógico: forma de pensamento estruturado, ou raciocínio, que permite encontrar a conclusão ou determinar a resolução de um problema. 
+Essa habilidade pode ser treinada (desenvolvida majoritariamente desse jeito).
+Ele é classificado em três tipos: 
+
+	a) Indução: dado um fenômeno observado, o indivíduo pega a particularidadem à estrapola para o campo das ideias e desenvolve leis e teorias.É utilizado em ciências experimentais e processos de descobertas;
+
+	b) Dedução: ocorre de forma inversa da indução, ou seja, dado uma lei ou teoria é realizado previsões e explicações baseadas nessas leis. Utilizada em ciências exatas; 
+
+	c) Abdução: tipo de raciocínio que utiliza a conclusão para determinar a premissa. Esse tipo de raciocínio pode acarretar em erros. Utilizado em diagnósticos e áreas investigativas;
+
+Aperfeiçoamento: consiste em melhoramento, aprimoramento, refinamento. A partir de uma solução é possivel determinar pontos de melhora de maneira pontual. 
+O ato consiste em encontrar soluções eficientes, otimizar processos, simplificar linhas de códigos, funções bem definidas.
+O principal aspecto é otimizar recursos e melhorar algoritmos e códigos. Isso é um processo contínuo presente em todas as etapas do pensamento computacional trazendo maior compreensão, garantindo maior eficiência, diminuição de tempo e menos armazenamento utilizado.
