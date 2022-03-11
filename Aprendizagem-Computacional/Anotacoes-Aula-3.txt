@@ -1,0 +1,65 @@
+Estudo de Caso 1
+
+Cenário: Pessoa perdida na floresta buscando sobreviver e encontrar ajuda
+
+Buscar identificar:
+
+	1) Identificar mecanismos
+	2) Recursos comuns
+	3) Detalhes mais importantes
+
+
+Sobreviência -> encotrar água (coletar da chuva ou rio)
+		 comida (caçar ou coletar)
+		   abrigo (proteção e aquecimento)
+
+O elemento comum em algumas especificações é o fogo, então é necessário fazer ele primeiro.
+
+Criar um mapa é a abstração das características do meio sendo utilizado para procurar água, identificar o abrigo, procurar comida e identificar as zonas de perigo.
+
+O próximo passo é definir qual algoritmo para a realização das suas tarefas.
+ex: Preparando a comida : 
+	1) Pescar o peixe;
+	2) Colocar água na panela;
+	3) Ferver a água;
+	4) Limpar o peixe;
+	5) Fazer o cozido;
+	6) Assar o filé;
+	7) Comer;
+
+
+
+Estudo de caso 2
+Cenário: Soma de numeros entre 1 e 200 
+
+Primeira forma é somar de 1 em 1 e indo incrementando: Pouco eficiente e demanda muito tempo.
+Segunda forma é pegar os dois extremos e ir demcrementando. incrementar o 1 e decrementar o 200. Dessa maneira você encontra o padrão 201. 
+Para expressar em forma generalista é possível identificar quantas vezes ele se repete
+ 200 (duzentos números) / 2 (somados de 2 em 2) = 100
+201 (padrão) * 100 (repetição) = 20.100
+
+Formula generalista: 
+
+var y = 200 (maior valor)
+var x = 1 (menor valor)
+(y-1) + (x+1) = resultado_parcial
+
+total = y/2
+
+total * resultado_parcial = resultado
+
+
+Estudo de Caso 3
+
+Cenário: Busca binária
+
+vetor = [3, 5, 6, 9*, 20, 27, 45, 45]
+		[20, 27*, 45, 55]
+			[20*]
+
+Passos: ordenar o vetor
+	modulo de L/2
+	acessar estrutura
+	comparar valores
+	repita até encontrar o número
+	imprima "Busca bem sucedida"
