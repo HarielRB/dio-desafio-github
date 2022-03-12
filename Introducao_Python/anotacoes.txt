@@ -1,0 +1,71 @@
+Python
+-> Linguagem de programação de alto nível;
+-> Criada por Guido Van Rossum em 1989 no CWI;
+-> Fortemente tipada;
+-> Interpretada e orientada a objetos;
+-> Linguagem de scripts;
+
+A linguagem pode ser usada no desenvolvimento web (Django e Flask), desenvolvimento desktop (Tkitnter, PyQT, Kivy), ciência de dados (SciPy, Pandas), automação de tarefas.
+
+
+Aula 2
+
+Operadores
+-> Aritiméticos
+	Soma: +
+	Subtração: -
+	Divisão: /
+	Divisão Inteira: //
+	Multiplicação: *
+	Módulo: %
+	Exponenciação: **
+
+-> Atribuição
+	Atribuição: =
+	Incremento: +=
+	Decremento: -=
+	Multiplicação vezes 1: *=
+	Divisao por 1: /=
+	Módulo por 1: %=
+
+-> Comparação
+	Maior que: >
+	Maior ou Igual a: >=
+	Menor que: <
+	Menor ou Igual a: <=
+	Igual a: ==
+	Diferente de: !=
+
+-> Lógicos
+	E: and (todas as condições sendo True )
+	Ou: or (uma das condições sendo True ok)
+	Não: not (inverte o resultado)
+
+-> Identidade
+	is: compara se as variáveis comparadas forem do mesmo objeto
+	is not: retorna True se as variáveis comparadas não forem o mesmo objeto
+
+-> Associação
+	in: Retorna True caso o valor seja encontrado
+	not in: Retorna True caso o valor não seja encontrado
+
+Condições em python
+	If: condições simples
+		if condição:
+			instrução
+
+	If/Else: condições compostas
+		if condição:
+			instrução caso true
+		else:
+			instrução caso false
+
+	Elif: condições aninhadas
+		if condição:
+			intrução caso true prim
+		elif condição2:
+			instrução caso true seg
+		else: 
+			instrução caso tudo false
+
+As instruções contidas nas condições possuem escopo de bloco
