@@ -163,3 +163,21 @@ Um módulo nada mais é que um arquivo .py e esse módulos podem interagir entre
 Uma função anônima, ou função lambda, é uma função que simplifica funções que serão utilizadas muitas vezes nos códigos. Podemos contruir funções em apenas uma linha.
 ex: contador_letras = lambda lista: [len(x) for x in lista]
 A lambda só é utilizada para funções que sejam apenas de uma linha
+
+Gerar, copiar, mover e ler informações de arquivos externos
+Para criar um arquivo utiliza-se a palavra reservada open
+ex: open('teste.txt', 'w')
+É possível criar os arquivos e utiliza-los referenciando sua localização tanto para criação quanto para manipulação
+
+Data e Hora em Python
+
+
+Try, Except, Else e Finally
+As execeções em python são utilizadas para tratar erros em códigos.
+As exceções podem ser utilizadas para informar os erros ocorridos ou realizar alguma alteração no bloco de código a fim de evitar que os erros ocorram.
+O else serve para executar os códigos que devem ocorrer quando não ocorrer nenhuma exceção.
+E por fim o o finally é o que sempre deve ser executado caso ocorra ou não alguma exception
+
+Pacotes em Python
+Os pacotes em Python são bibliotecas que garantem maior organização nos códigos e ajudando na reutilização de código.
+Para instalarmos pacotes novos no nosso python utilizamos o comando pip install no terminal python
