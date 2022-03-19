@@ -69,3 +69,97 @@ Condições em python
 			instrução caso tudo false
 
 As instruções contidas nas condições possuem escopo de bloco
+
+Laços de Repetição
+
+For
+O comando for é utilizado quando se sabe o limite máximo para a repetição
+ex: for x in range(100):
+	print(x)
+for variavel in range(inicio, fim):
+
+While
+enquanto
+while variavel < condicao
+
+
+Listas e Tuplas
+
+Listas
+Listas são mutaveis e podem ser modificadas durante a execução do programa
+Declarada entre colchetes
+Em uma lista podem existir diferentes tipos de dados mas não é recomendável
+
+Tuplas
+As tuplas são imutáveis durante a execução do programa 
+Declaradas entres parenteses.
+
+
+A melhor maneira de acessar os elementos de uma lista ou tupla é utilizando os laços.
+Existem diversas funções e operações que envolve lista. Sempre que for usa-las e tiver duvida acessar a W3Schools
+
+Manipulação de conjuntos e subconjuntos 
+O que são? 
+Conjuntos são diferentes dos dicionários que eu conheço.
+Para cria-los utiliza-se as chaves.
+São do tipo set.
+Não permite duplicidade de valores. 
+É possível modificar os elementos dentro de um conjunto  adicionando ou removendo. Além de diversas outras operações que envolvem esse tipo de vetor.
+
+
+Métodos, Funções e Classes
+
+Funções retornam valores e métodos não e são criados com a palavra reservada def
+ex: def soma(a, b):
+	return a + b
+Eles nos auxiliam na reciclagem de códigos poupando tempo e esforço podendo chamar os métodos e funções a quarquer momento no código. 
+
+As classes são declaradas com a palavra Reservada Class (sempre com letra maiscula nome da classe). É por meio dela que o python tem a POO.
+É possível adicionar nelas métodos e variáveis (atributos. Para adicionar os atributos das classes em python utiliza-se 'def__init__(self)' para inicializa-los.
+Esse método é usado na instanciação das classes.
+o self referencia o próprio objeto. 
+
+Para instanciar a classe é quase igual em java: 
+	calculadora = Calculadora(10, 2)
+As classes podem ser criadas em arquivos a parte e serem importadas em outros arquivos.
+Ainda sibre elas, também é possível não declarar os valores no construtor e colocar parametros apenas nos métodos.
+
+ex: 
+class Tv:
+    def __init__(self):
+        self.ligada = False
+        self.canal = 5
+
+    def power(self):
+        if self.ligada:
+            self.ligada = False
+        else:
+            self.ligada = True
+
+    def aumentaCanal(self):
+        if self.ligada:
+            self.canal += 1
+
+    def diminuiCanal(self):
+        if self.ligada:
+            self.canal -= 1
+
+
+televisao = Tv()
+print(f'A televisão esta ligada? \n{televisao.ligada}')
+televisao.power()
+print(f'Esta ligada agora? \n{televisao.ligada}')
+print(f'Canal Atual: {televisao.canal}')
+televisao.aumentaCanal()
+televisao.aumentaCanal()
+print(f'Canal Atual: {televisao.canal}')
+televisao.diminuiCanal()
+print(f'Canal Atual: {televisao.canal}')
+
+Módulos e Funções Anônimas (lambda)
+Um módulo nada mais é que um arquivo .py e esse módulos podem interagir entre eles, inclusive pelo console do python. 
+	=> sempre utilizar o main nas classes p/ realizar testes
+
+Uma função anônima, ou função lambda, é uma função que simplifica funções que serão utilizadas muitas vezes nos códigos. Podemos contruir funções em apenas uma linha.
+ex: contador_letras = lambda lista: [len(x) for x in lista]
+A lambda só é utilizada para funções que sejam apenas de uma linha
