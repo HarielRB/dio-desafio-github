@@ -14,5 +14,5 @@ Foram adicionados e criados os primeiros códigos das aulas de Python.
 Também foi criado uma calculadora simples de média de alunos envolvendo uma validação simples de dados.
 
 
-##Link para o desafio AWS DynamoDB
+## Link para o desafio AWS DynamoDB
 [Clique em Mim!](https://dio-serverless-curso-hariel.s3.sa-east-1.amazonaws.com/AWSDynamoDB/)
